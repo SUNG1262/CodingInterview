@@ -13,7 +13,7 @@ char* foo(char* input) {
         } else {
             if(cnt != 0) {
                 output[index++] = input[i-1];
-                output[index++] = cnt + '0';
+                output[index++] = cnt + '0'; // In this code, The value of cnt must have 1~9.   
             }
             now = input[i];
             cnt = 1;
